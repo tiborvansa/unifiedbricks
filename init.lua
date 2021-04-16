@@ -11,9 +11,9 @@ unifiedbricks = {}
 unifiedbricks.old_static_list = {}
 unifiedbricks.old_static_list_formals = {}
 
-minetest.register_alias("unifieddyes:white","unifieddyes:white_paint")
+--minetest.register_alias("unifieddyes:white","unifieddyes:white_paint")
 minetest.register_alias("unifieddyes:lightgrey","unifieddyes:lightgrey_paint")
-minetest.register_alias("unifieddyes:grey","unifieddyes:grey_paint")
+--minetest.register_alias("unifieddyes:grey","unifieddyes:grey_paint")
 minetest.register_alias("unifieddyes:darkgrey","unifieddyes:darkgrey_paint")
 
 HUES = {
@@ -384,4 +384,4 @@ minetest.register_lbm({
 	end
 })
 
-print("[UnifiedBricks] Loaded!")
+--print("[UnifiedBricks] Loaded!")
